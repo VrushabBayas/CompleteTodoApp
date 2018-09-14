@@ -39,9 +39,9 @@ const mapStateToProps = (state) => {
 	};
 };
 const mapDispatchToProps = (dispatch) => {
-	dispatch({
+	return {
 		fetchAllTodoAction: fetchAllTodoAction
-	});
+	};
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(TodoListContaianer);

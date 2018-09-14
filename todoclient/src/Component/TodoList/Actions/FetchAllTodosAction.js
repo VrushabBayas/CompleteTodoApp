@@ -1,5 +1,5 @@
 import axios from 'axios';
-const host = 'localhost:' + 3001;
+const host = 'localhost:3001';
 const url = host + '/getAllTodos';
 
 const GET_ALL_TODOS = 'GET_ALL_TODOS';
